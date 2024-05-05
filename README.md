@@ -1,4 +1,4 @@
-# Fama MacBeth Regression
+# Fama-MacBeth Regression
 Demo examining different choices of risk factors.
 
 1. Eigenportfolios
