@@ -7,7 +7,7 @@ Two different choices of risk factors are demonstrated:
 
 ![Eigenportfolios](https://github.com/odenpetersen/fama-macbeth-regression/blob/main/output/eigenportfolios.png?raw=true)
 
-2. Microstructural features from the previous day, along with the first eigenportfolio
+2. Microstructural features from the previous day, along with the first eigenportfolio (`market_factor`)
 
 ![Microstructural features](https://github.com/odenpetersen/fama-macbeth-regression/blob/main/output/features.png?raw=true)
 
