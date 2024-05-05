@@ -1,11 +1,12 @@
 # Fama MacBeth Regression
-Demo examining different choices of risk factors:
+Demo examining different choices of risk factors.
+
 1. Eigenportfolios
+
 ![Eigenportfolios](https://github.com/odenpetersen/fama-macbeth-regression/blob/main/output/eigenportfolios.png?raw=true)
-2. Microstructural features from the previous day, alongside with the first eigenportfolio
+2. Microstructural features from the previous day, along with the first eigenportfolio
+
 ![Microstructural features](https://github.com/odenpetersen/fama-macbeth-regression/blob/main/output/features.png?raw=true)
-
-
 
 # Data Source
 Dataset is NIFTY50 from [Kaggle](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data/data) (version 15, as at 2024-05-05).

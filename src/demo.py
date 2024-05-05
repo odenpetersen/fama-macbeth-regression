@@ -60,7 +60,7 @@ def demo_eigenportfolios():
     betas, premia = fama_macbeth(returns, risk_factors)
     premia_subset = premia.T[[*premia.T.columns[:3],*premia.T.columns[-5:]]]
 
-    (premia_subset/premia_subset.std()).cumsum().plot()
+    (np.sign(premia_subset.mean())*premia_subset/premia_subset.std()).cumsum().plot()
     plt.suptitle('Cumulative Excess Return of Eigenportfolios')
     plt.title('No compounding, normalised to variance=1')
     plt.savefig('../output/eigenportfolios.png')
@@ -99,7 +99,7 @@ def demo_features():
 
     betas, premia = fama_macbeth(returns, risk_factors)
 
-    (premia.T/premia.T.std()).cumsum().plot()
+    (np.sign(premia.T.mean())*premia.T/premia.T.std()).cumsum().plot()
     plt.suptitle('Cumulative Excess Return of Feature-Based Risk Factors')
     plt.title('No compounding, normalised to variance=1')
     plt.savefig('../output/features.png')
