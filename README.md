@@ -1,5 +1,7 @@
 # Fama-MacBeth Regression
-Demo examining different choices of risk factors.
+Python implementation of the [Two-Stage Fama-MacBeth Regression procedure](https://en.wikipedia.org/wiki/Fama%E2%80%93MacBeth_regression).
+
+Two different choices of risk factors are demonstrated:
 
 1. Eigenportfolios
 
